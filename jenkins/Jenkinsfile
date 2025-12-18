@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                echo 'Job Complete for SCM Polling!'
+                echo 'Job Complete for SCM Polling! (Multi Branch)'
             }
         }
     }
